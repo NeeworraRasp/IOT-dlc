@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-dlc
+  host: IOT-dlc
+  disk_quota: 1024M
+  services:
+  - IOT-dlc-ibm-iot-for-electronics
+  - IOT-dlc-iotf-service
+  - IOT-dlc-AdvancedMobileAccess
